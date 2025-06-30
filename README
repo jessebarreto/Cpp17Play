@@ -1,0 +1,11 @@
+# RawCPlay
+
+Project where I am playing around with C++17. 
+Creating useful data structures and implementing algorithms.
+
+## Folder Structure
+
+. cpp17play
+.. utils
+.. data_structure
+.. design_pattern
