@@ -19,4 +19,10 @@ add_library(
     "BuilderDirector.hpp"
 )
 
+add_library(
+    Prototype
+    INTERFACE
+    "Prototype.hpp"
+)
+
 add_subdirectory(test)
