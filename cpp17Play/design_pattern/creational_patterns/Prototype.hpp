@@ -21,20 +21,6 @@ class Prototype {
   [[nodiscard]] virtual Prototype& clone() const = 0;
 };
 
-// class PrototypeRegitry {
-//   std::unordered_map<std::string, Prototype> _prototypes;
-
-//  public:
-//   void registerPrototype(const std::string& prototypeName,
-//                          const Prototype& prototype) {
-//     _prototypes.emplace(prototypeName, prototype.clone());
-//   }
-
-//   const Prototype& getByName(const std::string& prototypeName) {
-//     return _prototypes.at(prototypeName);
-//   }
-// }
-
 }  // namespace cpp17Play
 
 #endif /* __DESIGN_PATTERN_PROTOTYPE_H__ */
