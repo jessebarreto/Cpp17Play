@@ -13,4 +13,10 @@ add_library(
     # "Singleton.cpp"
 )
 
+add_library(
+    BuilderDirector
+    INTERFACE
+    "BuilderDirector.hpp"
+)
+
 add_subdirectory(test)

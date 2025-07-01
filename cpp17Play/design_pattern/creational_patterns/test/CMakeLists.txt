@@ -24,3 +24,15 @@ target_link_libraries(
 )
 include(GoogleTest)
 gtest_discover_tests(test_Singleton)
+
+add_executable(
+    test_BuilderDirector 
+    test_BuilderDirector.cpp
+)
+target_link_libraries(
+    test_BuilderDirector
+    BuilderDirector
+    GTest::gtest_main
+)
+include(GoogleTest)
+gtest_discover_tests(test_BuilderDirector)
