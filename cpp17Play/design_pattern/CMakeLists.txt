@@ -1,3 +1,5 @@
 add_subdirectory(creational_patterns)
 
 add_subdirectory(structural_patterns)
+
+add_subdirectory(behavioural_patterns)
