@@ -8,7 +8,6 @@
 #include <string>
 #include <unordered_map>
 
-#include "LogContext.hpp"
 #include "LogLevel.hpp"
 
 namespace cpp17Play {

@@ -46,13 +46,8 @@ target_link_libraries(
     Logger
     LogHandler
     LogHandlerType
+    ConsoleLoghandler
     fmt::fmt
-)
-
-add_library(
-    LoggerConfig
-    INTERFACE
-    "LoggerConfig.hpp"
 )
 
 add_library(
